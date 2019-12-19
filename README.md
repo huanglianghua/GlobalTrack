@@ -4,7 +4,7 @@ Official implementation of our AAAI2020 paper: GlobalTrack: A Simple and Strong 
 
 ![figure2](imgs/figure2.jpg)
 
-Extremely simple architecture, with no motion model, no online learning, no punishment on position or scale changes, no scale smoothing and no trajectory refinement.
+Extremely simple architecture, with **NO motion model, NO online learning, NO punishment on position or scale changes, NO scale smoothing and NO trajectory refinement**.
 
 Outperforms [SPLT](https://github.com/iiau-tracker/SPLT) (ICCV19) on [TLP](https://amoudgl.github.io/tlp/) benchmark (avg. **13,529 frames** per video) by **OVER 11%** (absolute gain).
 
