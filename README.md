@@ -1,10 +1,10 @@
 # GlobalTrack
 
-Official implementation of our AAAI2020 paper: GlobalTrack: A Simple and Strong Baseline for Long-term Tracking. **The first tracker with NO cumulative errors.**
+Official implementation of our AAAI2020 paper: GlobalTrack: A Simple and Strong Baseline for Long-term Tracking.
 
 ![figure2](imgs/figure2.jpg)
 
-Extremely simple architecture, with **NO motion model, NO online learning, NO punishment on position or scale changes, NO scale smoothing and NO trajectory refinement**.
+Extremely simple architecture, with **NO motion model, NO online learning, NO punishment on position or scale changes, NO scale smoothing and NO trajectory refinement**, and thus **NO cumulative errors**.
 
 Outperforms [SPLT](https://github.com/iiau-tracker/SPLT) (ICCV19) on [TLP](https://amoudgl.github.io/tlp/) benchmark (avg. **13,529 frames** per video) by **OVER 11%** (absolute gain).
 
