@@ -1,6 +1,8 @@
 # GlobalTrack
 
-Official implementation of our AAAI2020 paper: GlobalTrack: A Simple and Strong Baseline for Long-term Tracking.
+Official implementation of our AAAI2020 paper: GlobalTrack: A Simple and Strong Baseline for Long-term Tracking. **The first tracker with NO cumulative errors.**
+
+![figure2](imgs/figure2.jpg)
 
 Extremely simple architecture, with no motion model, no online learning, no punishment on position or scale changes, no scale smoothing and no trajectory refinement.
 
