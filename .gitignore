@@ -1,0 +1,17 @@
+.*
+*.py[cod]
+log
+log_*
+*.log
+/data
+__pycache__/
+cache/
+results*/
+reports*/
+screenshots/
+screenshots*/
+experiments/
+*.egg-info/
+work_dirs/
+checkpoints/
+!.gitignore

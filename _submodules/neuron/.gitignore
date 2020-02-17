@@ -1,0 +1,15 @@
+.*
+*.py[cod]
+log
+log_*
+/data
+__pycache__/
+cache/
+results/
+reports/
+screenshots/
+screenshots*/
+experiments/
+*.egg-info/
+work_dirs/
+!.gitignore
