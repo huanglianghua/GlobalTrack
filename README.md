@@ -1,9 +1,10 @@
 # GlobalTrack
 
 > UPDATES:<br>
-> - Both training and evaluation code are available!<br>
-> - Initial and pretrained weights are provided!<br>
-> - A demo tracking video of GlobalTrack is available [here](https://youtu.be/na0H3u4cLqY)!
+> - [2020.03.02] Update training scripts to match the settings in the paper (12 epochs on `COCO` and another 12 epochs on `COCO + GOT + LaSOT`)!
+> - [2020.02.19] Both training and evaluation code are available!<br>
+> - [2020.02.19] Initial and pretrained weights are provided!<br>
+> - [2020.02.19] A demo tracking video of GlobalTrack is available [here](https://youtu.be/na0H3u4cLqY)!
 
 Official implementation of our AAAI2020 paper: GlobalTrack: A Simple and Strong Baseline for Long-term Tracking. **The first tracker with NO cumulative errors.**
 

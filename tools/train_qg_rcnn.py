@@ -23,6 +23,18 @@ def parse_args():
         default='work_dirs/qg_rcnn_r50_fpn')
     parser.add_argument('--load_from')
     parser.add_argument('--resume_from')
+    parser.add_argument(
+        '--base_dataset',  # names of training datasets, splitted by comma, see `datasets/wrappers` for options
+        type=str,
+        default='coco_train,got10k_train,lasot_train')
+    parser.add_argument(
+        '--base_transforms',  # names of transforms, see `datasets/wrappers` for options
+        type=str,
+        default='extra_partial')
+    parser.add_argument(
+        '--sampling_prob',  # probabilities for sampling training datasets, splitted by comma, sum should be 1
+        type=str,
+        default='0.4,0.4,0.2')
     parser.add_argument('--fp16', action='store_true')
     parser.add_argument('--workers', type=int)
     parser.add_argument('--gpus', type=int, default=4)
@@ -52,6 +64,13 @@ def main():
         cfg.load_from = args.load_from
     if args.resume_from is not None:
         cfg.resume_from = args.resume_from
+    if args.base_dataset is not None:
+        cfg.data.train.base_dataset = args.base_dataset
+    if args.base_transforms is not None:
+        cfg.data.train.base_transforms = args.base_transforms
+    if args.sampling_prob is not None:
+        probs = [float(p) for p in args.sampling_prob.split(',')]
+        cfg.data.train.sampling_prob = probs
     if args.fp16:
         cfg.fp16 = {'loss_scale': 512.}
     if args.workers is not None:
