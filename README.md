@@ -10,11 +10,11 @@ Official implementation of our AAAI2020 paper: GlobalTrack: A Simple and Strong 
 
 ![figure2](imgs/figure2.jpg)
 
-Extremely simple architecture, with **NO motion model, NO online learning, NO punishment on position or scale changes, NO scale smoothing and NO trajectory refinement**.
+Extremely simple tracking process, with **NO motion model, NO online learning, NO punishment on position or scale changes, NO scale smoothing and NO trajectory refinement**.
 
-Outperforms [SPLT](https://github.com/iiau-tracker/SPLT) (ICCV19) on [TLP](https://amoudgl.github.io/tlp/) benchmark (avg. **13,529 frames** per video) by **OVER 11%** (absolute gain).
+Outperforms [SPLT](https://github.com/iiau-tracker/SPLT) (ICCV19), [SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_High_Performance_Visual_CVPR_2018_paper.pdf), [ATOM](https://github.com/visionml/pytracking) and [MBMD](https://github.com/xiaobai1217/MBMD) on [TLP](https://amoudgl.github.io/tlp/) benchmark (avg. **13,529 frames** per video) by **MORE THAN 11%** (absolute gain).
 
-Outperforms [SiamRPN++](https://github.com/STVIR/pysot) and [ATOM](https://github.com/visionml/pytracking) on [LaSOT](https://cis.temple.edu/lasot/) benchmark.
+Outperforms [SPLT](https://github.com/iiau-tracker/SPLT), [SiamRPN++](https://github.com/STVIR/pysot), [ATOM](https://github.com/visionml/pytracking) and [DaSiamLT](https://github.com/foolwood/DaSiamRPN) on [LaSOT](https://cis.temple.edu/lasot/) benchmark.
 
 Paper on arXiv: [1912.08531](https://arxiv.org/abs/1912.08531).
 
