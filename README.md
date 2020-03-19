@@ -1,6 +1,7 @@
 # GlobalTrack
 
 > UPDATES:<br>
+> - [2020.03.19] Tracking results of GlobalTrack on OTB, UAV123/20L, TLP, LaSOT, DTB70, TColor128, and VisDrone can be downloaded from [Google Drive](https://drive.google.com/open?id=1e7yeW8HBengsHlw4mbrmy4ATTGsDWso4) or [Baidu Yun](https://pan.baidu.com/s/) (password: ivf0)!
 > - [2020.03.02] Update training scripts to match the settings in the paper (12 epochs on `COCO` and another 12 epochs on `COCO + GOT + LaSOT`)!
 > - [2020.02.19] Both training and evaluation code are available!<br>
 > - [2020.02.19] Initial and pretrained weights are provided!<br>
@@ -15,6 +16,10 @@ Extremely simple tracking process, with **NO motion model, NO online learning, N
 Outperforms [SPLT](https://github.com/iiau-tracker/SPLT) (ICCV19), [SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_High_Performance_Visual_CVPR_2018_paper.pdf), [ATOM](https://github.com/visionml/pytracking) and [MBMD](https://github.com/xiaobai1217/MBMD) on [TLP](https://amoudgl.github.io/tlp/) benchmark (avg. **13,529 frames** per video) by **MORE THAN 11%** (absolute gain).
 
 Outperforms [SPLT](https://github.com/iiau-tracker/SPLT), [SiamRPN++](https://github.com/STVIR/pysot), [ATOM](https://github.com/visionml/pytracking) and [DaSiamLT](https://github.com/foolwood/DaSiamRPN) on [LaSOT](https://cis.temple.edu/lasot/) benchmark.
+
+Tracking results of GlobalTrack on diverse benchmarks can be downloaded from:
+- Google Drive: https://drive.google.com/open?id=1e7yeW8HBengsHlw4mbrmy4ATTGsDWso4
+- Baidu Yun: [link] https://pan.baidu.com/s/  [password] ivf0
 
 Paper on arXiv: [1912.08531](https://arxiv.org/abs/1912.08531).
 
