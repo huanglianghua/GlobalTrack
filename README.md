@@ -1,7 +1,7 @@
 # GlobalTrack
 
 > UPDATES:<br>
-> - [2020.03.19] Tracking results of GlobalTrack on OTB, UAV123/20L, TLP, LaSOT, DTB70, TColor128, and VisDrone can be downloaded from [Google Drive](https://drive.google.com/open?id=1e7yeW8HBengsHlw4mbrmy4ATTGsDWso4) or [Baidu Yun](https://pan.baidu.com/s/) (password: ivf0)!
+> - [2020.03.19] Tracking results of GlobalTrack on OTB, UAV123/20L, TLP, LaSOT, DTB70, TColor128, and VisDrone can be downloaded from [Google Drive](https://drive.google.com/open?id=1e7yeW8HBengsHlw4mbrmy4ATTGsDWso4) or [Baidu Yun](https://pan.baidu.com/s/1BsSPTFqldFTBdgUrBQ24Mg) (password: iry1)!
 > - [2020.03.02] Update training scripts to match the settings in the paper (12 epochs on `COCO` and another 12 epochs on `COCO + GOT + LaSOT`)!
 > - [2020.02.19] Both training and evaluation code are available!<br>
 > - [2020.02.19] Initial and pretrained weights are provided!<br>
@@ -19,7 +19,7 @@ Outperforms [SPLT](https://github.com/iiau-tracker/SPLT), [SiamRPN++](https://gi
 
 Tracking results of GlobalTrack on diverse benchmarks can be downloaded from:
 - Google Drive: https://drive.google.com/open?id=1e7yeW8HBengsHlw4mbrmy4ATTGsDWso4
-- Baidu Yun: [link] https://pan.baidu.com/s/  [password] ivf0
+- Baidu Yun: [link] https://pan.baidu.com/s/1BsSPTFqldFTBdgUrBQ24Mg  [password] iry1
 
 Paper on arXiv: [1912.08531](https://arxiv.org/abs/1912.08531).
 
