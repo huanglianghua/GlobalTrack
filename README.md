@@ -30,9 +30,12 @@ Demo video: [YouTube](https://youtu.be/na0H3u4cLqY), [YouKu](https://v.youku.com
 To reproduce our Python environment, you'll need to create a conda environment from `environment.yml` and compile the Cpp/CUDA extensions (we use `CUDA toolkit 9.0`):
 
 ```shell
+git clone https://github.com/huanglianghua/GlobalTrack.git
+cd GlobalTrack
+
 conda env create -f environment.yml
 conda activate GlobalTrack
-git clone https://github.com/huanglianghua/GlobalTrack.git
+
 cd _submodules/mmdetection
 python setup.py develop
 ```
